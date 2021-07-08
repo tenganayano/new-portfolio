@@ -1,0 +1,20 @@
+//mixin
+
+@mixin flex ($justify：space-around ,$align：center){
+    display: flex;
+    justify-content: $justify;
+    text-align: $align;
+}
+
+
+//color
+$w-green:#C2E2E0;
+$d-green:#98B1B9;
+$navy:#354359;
+$yerrow:#F5FF00;
+$s-wgreen:#D0F0EE;
+$s-dgreen:#809DA6;
+$button:#69DDA7;
+$r-bule:#05F8EF;
+$t-black:#626262;
+$t-white:#ffffff;
