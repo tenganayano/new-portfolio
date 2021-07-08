@@ -1,0 +1,47 @@
+.vision{
+    height: 100vh;
+    width: 100%;
+    &__inner{
+        width: 60%;
+        margin: auto;
+        padding: 70px;
+        background-color: #fff;
+        position: relative;
+        &::before{
+            position: absolute;
+            content: "";
+            top: -20px;
+            left: -20px;
+            width: 100%;
+            height: 100%;
+            border: 1px solid #000000;
+        }
+    }
+    &__txt{
+        font-size: 18px;
+        text-align: center;
+        line-height: 2;
+    }
+    &__copy{
+        font-size: 200px;
+        font-weight: bold;
+        color: $s-wgreen;
+        text-align: end;
+    }
+}
+
+
+
+.section{
+    &__ttl{
+        position: relative;
+        z-index: 2;
+    }
+    &__ttl::after{
+        position: absolute;
+        content: "-Vision";
+        top: 10px;
+        left: 5px;
+        color: $s-wgreen;
+    }
+}

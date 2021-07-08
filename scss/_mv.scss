@@ -1,0 +1,16 @@
+.mv{
+    background: url(../img/mv.jpg)center 75% /cover;
+    width: 100%;
+    height: 100vh;
+    &__nav{
+        width: 150px;
+        height: 100vh;
+        background-color: #4646463f;
+        color: $t-white;
+        &-list{
+            display: block;
+            text-align: center;
+        }
+        
+    }
+}

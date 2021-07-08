@@ -1,3 +1,90 @@
+body {
+  color: #354359;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.w-green {
+  background-color: #C2E2E0;
+}
+
+.d-green {
+  background-color: #98B1B9;
+}
+
+section {
+  padding-top: 150px;
+}
+
+.section__ttl {
+  font-size: 32px;
+  margin-left: 200px;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+.section__white {
+  color: #ffffff;
+}
+
+.mv {
+  background: url(../img/mv.jpg) center 75%/cover;
+  width: 100%;
+  height: 100vh;
+}
+.mv__nav {
+  width: 150px;
+  height: 100vh;
+  background-color: #4646463f;
+  color: #ffffff;
+}
+.mv__nav-list {
+  display: block;
+  text-align: center;
+}
+
+.vision {
+  height: 100vh;
+  width: 100%;
+}
+.vision__inner {
+  width: 60%;
+  margin: auto;
+  padding: 70px;
+  background-color: #fff;
+  position: relative;
+}
+.vision__inner::before {
+  position: absolute;
+  content: "";
+  top: -20px;
+  left: -20px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000000;
+}
+.vision__txt {
+  font-size: 18px;
+  text-align: center;
+  line-height: 2;
+}
+.vision__copy {
+  font-size: 200px;
+  font-weight: bold;
+  color: #D0F0EE;
+  text-align: end;
+}
+
+.section__ttl {
+  position: relative;
+  z-index: 2;
+}
+.section__ttl::after {
+  position: absolute;
+  content: "-Vision";
+  top: 10px;
+  left: 5px;
+  color: #D0F0EE;
+}
+
 .about {
   display: flex;
   justify-content: space-around;

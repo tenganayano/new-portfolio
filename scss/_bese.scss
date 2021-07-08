@@ -10,6 +10,7 @@
 //color
 $w-green:#C2E2E0;
 $d-green:#98B1B9;
+$p-green:#809DA6;
 $navy:#354359;
 $yerrow:#F5FF00;
 $s-wgreen:#D0F0EE;
@@ -18,3 +19,39 @@ $button:#69DDA7;
 $r-bule:#05F8EF;
 $t-black:#626262;
 $t-white:#ffffff;
+
+
+//body
+
+body{
+    color: $navy;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+//background-color
+
+.w-green{
+    background-color: $w-green;
+}
+
+.d-green{
+    background-color: $d-green;
+}
+
+//section
+
+section{
+    padding-top: 150px;
+}
+
+.section{
+    &__ttl{
+        font-size: 32px;
+        margin-left: 200px;
+        margin-bottom: 40px;
+        letter-spacing: 2px;
+    }
+    &__white{
+        color: $t-white;
+    }
+}
