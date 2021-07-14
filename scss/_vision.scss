@@ -35,13 +35,14 @@
 .section{
     &__ttl{
         position: relative;
-        z-index: 2;
+        z-index: 1;
     }
     &__ttl::after{
         position: absolute;
         content: "-Vision";
         top: 10px;
-        left: 5px;
+        left: 8px;
         color: $s-wgreen;
+        z-index: -1;
     }
 }
